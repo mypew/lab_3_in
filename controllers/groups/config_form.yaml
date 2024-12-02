@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Группы
+
+# Model Form Field configuration
+form: $/bree7e/cris/models/group/fields.yaml
+
+# Model Class name
+modelClass: Bree7e\Cris\Models\Group
+
+# Default redirect location
+defaultRedirect: bree7e/cris/groups
+
+# Create page
+create:
+    title: Создать группу
+    redirect: bree7e/cris/groups/update/:id
+    redirectClose: bree7e/cris/groups
+
+# Update page
+update:
+    title: Редактировать группу
+    redirect: bree7e/cris/groups
+    redirectClose: bree7e/cris/groups
+
+# Preview page
+preview:
+    title: Просмотр группы

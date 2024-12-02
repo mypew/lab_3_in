@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Студенты
+
+# Model Form Field configuration
+form: $/bree7e/cris/models/student/fields.yaml
+
+# Model Class name
+modelClass: Bree7e\Cris\Models\Student
+
+# Default redirect location
+defaultRedirect: bree7e/cris/students
+
+# Create page
+create:
+    title: Создать студента
+    redirect: bree7e/cris/students/update/:id
+    redirectClose: bree7e/cris/students
+
+# Update page
+update:
+    title: Редактировать студента
+    redirect: bree7e/cris/students
+    redirectClose: bree7e/cris/students
+
+# Preview page
+preview:
+    title: Просмотр студента

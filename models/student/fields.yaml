@@ -1,0 +1,29 @@
+fields:
+    surname:
+        label: Фамилия
+        type: text
+        span: left
+    course:
+        label: Курс
+        type: number
+        span: right
+    name:
+        label: Имя
+        type: text
+        span: left
+    group:
+        label: Группа
+        descriptionFrom: description
+        span: right
+        type: relation
+        nameFrom: name
+    patronymic:
+        label: Отчество
+        type: text
+        span: left
+    birth_date:
+        label: Дата рождения
+        mode: date
+        span: right
+        type: datepicker
+        ignoreTimezone: true

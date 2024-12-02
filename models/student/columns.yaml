@@ -1,0 +1,20 @@
+columns:
+    surname:
+        label: Фамилия
+        type: text
+        sortable: true
+        searchable: true
+    name:
+        label: Имя
+        type: text
+        sortable: true
+        searchable: true
+    patronymic:
+        label: Отчество
+        type: text
+        sortable: true
+        searchable: true
+    group_name:
+        label: Группа
+        relation: group
+        select: name
